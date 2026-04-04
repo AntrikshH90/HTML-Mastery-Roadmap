@@ -16,7 +16,7 @@ This project is open-source and licensed under the **MIT License**. I highly enc
 - 💡 Add more advanced accessibility (A11y) tricks or new HTML5 APIs.
 
 ## 🏗️ Repository Structure
-This roadmap is structured systematically into folders. Content from the full `html.md` guide has been broken down by topic and level.
+This roadmap is structured systematically into folders. Content from the full `HTML_Complete_A_to_Z_Mega_Guide.md` guide has been broken down by topic and level.
 
 ### 📚 Syllabus
 
@@ -69,6 +69,7 @@ Advanced HTML5 features, APIs, and best practices.
 | `PartX_HTML5_APIs_Modern_Features.md` | HTML5 APIs (Geolocation, Storage, Drag & Drop…) |
 | `PartY_Accessibility.md` | Accessibility (a11y), ARIA roles and attributes |
 | `PartZ_Canvas_SVG.md` | `<canvas>` drawing API and inline SVG |
+| `HTML_Complete_A_to_Z_Mega_Guide.md` | Original complete A-to-Z mega guide covering all levels |
 | `Complete_HTML_Tag_Encyclopedia.md` | All 110+ HTML tags with descriptions |
 | `Data_Attributes.md` | Custom `data-*` attributes |
 | `Web_Components_Templates.md` | `<template>`, `<slot>`, custom elements |
@@ -114,7 +115,6 @@ Comprehensive question bank for interview preparation.
 #### 📋 Root Files
 | File | Description |
 |------|-------------|
-| `html.md` | Original complete A-to-Z mega guide |
 | `Final_Checklist.md` | Everything-covered checklist |
 
 ---
