@@ -200,5 +200,88 @@
 </html>
 ```
 
----
+## 🟣 Project 4: Semantic Portfolio Landing Page (Intermediate/Advanced)
 
+**What to build (short):**
+- A one-page portfolio using semantic sections: `header`, `nav`, `main`, `section`, `article`, `footer`
+- Hero section with intro + call-to-action button
+- Projects section with 3 project cards (`figure` + `figcaption`)
+- Contact section with form fields and proper labels
+
+**Why this project is useful:**
+- Combines real interview-ready structure in one page
+- Practices semantics, accessibility, links, media, and form basics together
+- Makes a clean starter template you can later enhance with CSS/JS
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Landing Page</title>
+</head>
+<body>
+    <header>
+        <h1>Alex Developer</h1>
+        <nav aria-label="Main navigation">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I build clean and accessible web pages using semantic HTML.</p>
+            <a href="#projects">View Projects</a>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <article>
+                <figure>
+                    <img src="project1.jpg" alt="Screenshot of project one" loading="lazy" width="600" height="350">
+                    <figcaption>Project 1: Product Page</figcaption>
+                </figure>
+            </article>
+            <article>
+                <figure>
+                    <img src="project2.jpg" alt="Screenshot of project two" loading="lazy" width="600" height="350">
+                    <figcaption>Project 2: Blog Layout</figcaption>
+                </figure>
+            </article>
+            <article>
+                <figure>
+                    <img src="project3.jpg" alt="Screenshot of project three" loading="lazy" width="600" height="350">
+                    <figcaption>Project 3: FAQ Page</figcaption>
+                </figure>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="/contact" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Alex Developer. Built with semantic HTML.</p>
+    </footer>
+</body>
+</html>
+```
+
+---

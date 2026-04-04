@@ -77,4 +77,36 @@
 ```
 > **Error:** While technically valid in HTML5, attribute values with spaces MUST be quoted. `placeholder` value would be truncated to just "Enter". Use quotes: `placeholder="Enter name"`.
 
+### Error 11:
+```html
+<button>
+    <a href="/next-page">Continue</a>
+</button>
+```
+> **Error:** Interactive elements should not be nested (`<a>` inside `<button>`). Use either a styled link OR a button, not both together.
+
+### Error 12:
+```html
+<html>
+<head>
+    <title>My Page</title>
+</head>
+<body>...</body>
+</html>
+```
+> **Error:** Missing `<!DOCTYPE html>` at the top, which can cause quirks mode rendering.
+
+### Error 13:
+```html
+<img src="team.jpg" alt="image">
+```
+> **Error:** `alt="image"` is not meaningful. Alt text should describe the content/purpose, e.g. `alt="Development team standing in front of office"`.
+
+### Error 14:
+```html
+<label for="email">Email</label>
+<input type="email" id="user-email">
+```
+> **Error:** `for` and `id` values do not match, so the label is not correctly connected. Use `for="user-email"` or change `id` to `email`.
+
 ---

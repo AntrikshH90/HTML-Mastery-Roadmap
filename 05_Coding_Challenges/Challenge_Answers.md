@@ -138,3 +138,63 @@ Here are the precise, structurally perfect solutions to the coding challenges. T
 </dl>
 ```
 💡 **Trick:** Think of `<dl>` as a literal Dictionary List! `<dt>` stands for Dictionary Term, and `<dd>` is the Dictionary Definition! Use this anywhere there is a paired key-value text listing instead of a standard `<ul>`.
+
+---
+
+## 🛠️ Challenge 5: Accessible Login Form
+**Answer:**
+```html
+<form action="/login" method="post">
+    <h2>Login</h2>
+
+    <p id="login-help">Use your registered email and password.</p>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required aria-describedby="login-help">
+
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" required aria-describedby="login-help">
+
+    <label for="remember">
+        <input type="checkbox" id="remember" name="remember">
+        Remember me
+    </label>
+
+    <button type="submit">Sign in</button>
+</form>
+```
+💡 **Why this is good:** Every input has a proper label, required validation is clear, and helper text is connected for screen-reader users via `aria-describedby`.
+
+---
+
+## 🛠️ Challenge 6: SEO-Friendly Blog Header
+**Answer:**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 HTML Tips for Beginners</title>
+    <meta name="description" content="Easy and practical HTML tips to build clean and semantic web pages.">
+    <link rel="canonical" href="https://example.com/blog/html-tips">
+
+    <meta property="og:title" content="10 HTML Tips for Beginners">
+    <meta property="og:description" content="Easy and practical HTML tips to build clean and semantic web pages.">
+</head>
+<body></body>
+</html>
+```
+💡 **Why this is good:** It covers core SEO essentials for search engines and social sharing previews with minimal markup.
+
+---
+
+## 🛠️ Challenge 7: Figure + Caption Gallery Item
+**Answer:**
+```html
+<figure>
+    <img src="sunset.jpg" alt="Orange sunset over calm ocean water" loading="lazy" width="800" height="500">
+    <figcaption>Sunset view captured during an evening beach walk.</figcaption>
+</figure>
+```
+💡 **Why this is good:** `<figure>` and `<figcaption>` provide semantic meaning, and lazy loading improves performance.

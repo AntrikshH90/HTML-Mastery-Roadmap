@@ -46,3 +46,38 @@ This section tests your ability to write raw HTML5 code from scratch without loo
 [ Write your HTML code here... ]
 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+## 🛠️ Challenge 5: Accessible Login Form
+**Prompt:** Build a login form that:
+1. Uses `<label>` correctly for email and password.
+2. Includes `required` on both fields.
+3. Adds helper text and links it using `aria-describedby`.
+4. Includes a "Remember me" checkbox with clickable label text.
+5. Adds a submit button with clear text.
+
+[ Write your HTML code here... ]
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+## 🛠️ Challenge 6: SEO-Friendly Blog Header
+**Prompt:** Create a basic HTML page `<head>` that includes:
+1. A meaningful `<title>`.
+2. Meta description.
+3. Viewport tag.
+4. Canonical link.
+5. Open Graph title + description.
+
+[ Write your HTML code here... ]
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+## 🛠️ Challenge 7: Figure + Caption Gallery Item
+**Prompt:** Create one semantic gallery item using:
+1. `<figure>` wrapper.
+2. Responsive image with `loading="lazy"`.
+3. Descriptive `alt` text.
+4. `<figcaption>` with short context text.
+
+[ Write your HTML code here... ]
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
