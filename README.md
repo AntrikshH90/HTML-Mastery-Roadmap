@@ -38,8 +38,6 @@ Foundational HTML topics for absolute beginners.
 | `PartU_HTML_Comments.md` | HTML comments syntax and best practices |
 | `PartV_Preformatted_Text_Code_Tags.md` | `<pre>`, `<code>`, `<kbd>`, `<samp>` |
 | `Beginner_Practice_Tasks.md` | 20 beginner-level practice tasks |
-| `01_Basics_Questions.md` | Beginner Q&A question sheet |
-| `01_Basics_Answers.md` | Beginner Q&A answer sheet |
 
 #### 🟡 `02_Intermediate_Level/`
 Intermediate HTML topics building on the basics.
@@ -56,8 +54,6 @@ Intermediate HTML topics building on the basics.
 | `PartS_Block_vs_Inline_Elements.md` | Block vs inline display behaviour |
 | `PartT_Adding_CSS_and_JavaScript.md` | Linking CSS & JS to HTML |
 | `Intermediate_Practice_Tasks.md` | 20 intermediate-level practice tasks |
-| `02_Intermediate_Questions.md` | Intermediate Q&A question sheet |
-| `02_Intermediate_Answers.md` | Intermediate Q&A answer sheet |
 
 #### 🔴 `03_Advanced_Level/`
 Advanced HTML5 features, APIs, and best practices.
@@ -88,6 +84,7 @@ Mini projects and practical builds to consolidate knowledge.
 | File | Topic |
 |------|-------|
 | `Mini_Projects.md` | 10 complete mini-project walkthroughs |
+| `README.md` | Detailed step-by-step practical project guide |
 
 #### 🧩 `05_Coding_Challenges/`
 Hands-on challenges to test your HTML skills.
