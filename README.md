@@ -70,7 +70,7 @@ Advanced HTML5 features, APIs, and best practices.
 | `PartY_Accessibility.md` | Accessibility (a11y), ARIA roles and attributes |
 | `PartZ_Canvas_SVG.md` | `<canvas>` drawing API and inline SVG |
 | `HTML_Complete_A_to_Z_Mega_Guide.md` | Original complete A-to-Z mega guide covering all levels |
-| `encyclopedia.md` | All 110+ HTML tags with descriptions |
+| `encyclopedia/encyclopedia.md` | All 110+ HTML tags with descriptions |
 | `Data_Attributes.md` | Custom `data-*` attributes |
 | `Web_Components_Templates.md` | `<template>`, `<slot>`, custom elements |
 | `Performance_Best_Practices.md` | Page performance, lazy loading, resource hints |
