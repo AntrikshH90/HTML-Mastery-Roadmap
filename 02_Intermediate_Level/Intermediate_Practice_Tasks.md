@@ -139,4 +139,44 @@ Create a page demonstrating 4 types of navigation:
 - Footer navigation
 Each with proper `<nav>` and `aria-label`.
 
+### Task 41: Accessible Contact Card
+Create a simple contact card page with:
+- Semantic structure (`<main>`, `<section>`, heading hierarchy)
+- Profile image with meaningful alt text
+- Email + phone links (`mailto:`, `tel:`)
+- External portfolio link opening in new tab with safe `rel` attributes
+- A short note connected with `aria-describedby` to a contact button
+
+### Task 42: Search Form UX
+Create a search page with:
+- `<form role="search">`
+- `<label>` correctly attached to input
+- `type="search"` input with placeholder
+- Submit and clear buttons
+- Small helper text explaining what can be searched
+
+### Task 43: Product Feature Comparison
+Build a semantic comparison section with:
+- One `<table>` and `<caption>`
+- At least 4 features and 3 products
+- `<thead>`, `<tbody>`, `<tfoot>`
+- `scope` attributes on headers
+- A summary paragraph below the table explaining best choice
+
+### Task 44: Profile Completion Form
+Build a "Complete your profile" form with:
+- Name, username, bio, country, date of birth
+- Character limit on bio with helper text
+- Required fields clearly marked
+- One checkbox for terms
+- Success message area (semantic text block) shown after submit simulation
+
+### Task 45: Semantic News Snippet
+Create a mini news page with:
+- `<article>` containing heading, date (`<time>`), image, and paragraph
+- One pull quote using `<blockquote>`
+- Source credit using `<cite>`
+- Related links list
+- Footer section for tags/categories
+
 ---

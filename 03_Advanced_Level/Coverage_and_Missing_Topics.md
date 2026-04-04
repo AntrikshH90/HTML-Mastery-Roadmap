@@ -2,6 +2,31 @@
 
 ---
 
+## ✅ Quick Beginner → Advanced Gap Check (Easy + Short)
+
+The roadmap is already strong from beginner to advanced.  
+If you want it even more complete, add these short sections:
+
+1. **Link Safety Basics**  
+   Explain `target="_blank"` with `rel="noopener noreferrer"`.
+
+2. **Form Accessibility Essentials**  
+   Add simple examples for `label`, `fieldset/legend`, and clear error text.
+
+3. **Table Accessibility Essentials**  
+   Add quick use of `<caption>`, `scope`, and header structure.
+
+4. **SEO Core Technical Tags**  
+   Include short notes on canonical URL, `robots`, and `hreflang`.
+
+5. **Final Capstone Project Brief**  
+   One project combining semantic HTML, forms, media, SEO, and accessibility.
+
+6. **Quick Revision Checklists per Level**  
+   10-point checklist for Beginner, Intermediate, and Advanced.
+
+> In short: **content is enough**, but these additions will make revision and interview prep clearer.
+
 ## 1️⃣ URL TYPES & FILE PATHS
 
 ### Absolute vs Relative URLs
