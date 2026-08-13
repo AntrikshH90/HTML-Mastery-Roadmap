@@ -284,4 +284,58 @@
 </html>
 ```
 
+## ⚫ Project 5: Offline AI Assistant Interface (Advanced)
+
+**What to build (short):**
+- A local-first chat layout that works without internet once the page is loaded
+- Prompt box + send button + output area for "AI responses"
+- "Download Chat" and "Clear Chat" controls using native HTML elements
+
+**Why this project is useful:**
+- Simulates an offline AI product UI while practicing semantic HTML
+- Strengthens form structure, labeling, and accessibility for chat interfaces
+- Gives a ready template to connect with a local model later (via JavaScript)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline AI Assistant</title>
+</head>
+<body>
+    <main>
+        <h1>🤖 Offline AI Assistant</h1>
+        <p>Status: <strong>Offline Mode Enabled</strong></p>
+
+        <section aria-labelledby="chat-heading">
+            <h2 id="chat-heading">Chat</h2>
+
+            <article>
+                <h3>User</h3>
+                <p>Summarize semantic HTML in 3 points.</p>
+            </article>
+
+            <article>
+                <h3>Assistant</h3>
+                <p>1) Semantic tags describe meaning. 2) They improve accessibility. 3) They support better SEO and maintainability.</p>
+            </article>
+        </section>
+
+        <form action="#" method="post">
+            <label for="prompt">Ask your local assistant</label>
+            <textarea id="prompt" name="prompt" rows="5" placeholder="Type your prompt..." required></textarea>
+            <button type="submit">Send Prompt</button>
+            <button type="reset">Clear Chat</button>
+        </form>
+
+        <p>
+            <a href="chat-log.txt" download>Download Chat</a>
+        </p>
+    </main>
+</body>
+</html>
+```
+
 ---
